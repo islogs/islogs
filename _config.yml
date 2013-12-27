@@ -1,0 +1,16 @@
+auto: true
+markdown: rdiscount
+pygments: true
+
+title: ISLogs
+
+url: http://www.islogs.com
+
+permalink: /:year/:month/:day/:title/
+
+author:
+    name: Jason Kendall
+    email: jakendall@gmail.com
+    github: coolacid
+    twitter: coolacid
+

@@ -1,4 +1,2 @@
-islogs
-======
+## Based on gkwelding.Github.com
 
-ISLogs.com Website
