@@ -62,6 +62,8 @@ $ git checkout gh-pages
       </section>
     </div>
 
-    
+<p>Last built time:
+    <time class="date-built" datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date_to_rfc822 }}</time>
+</p>
   </body>
 </html>
