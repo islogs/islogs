@@ -8,6 +8,11 @@ url: http://ostlabs.github.io/islogs
 
 permalink: /:categories/:title/
 
+comments:
+    provider: disqus
+    disqus:
+        short_name: islogscom
+
 author:
     name: ISLogs Team
     email: jakendall@gmail.com
