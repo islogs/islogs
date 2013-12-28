@@ -7,7 +7,7 @@ categories: Windows-Events 600
 image: placeholder.png
 summary: Change Password Attempt
 Event: 627
-Log: Yes
+Log: true
 SIEM: No
 Compliance: Unknown
 tags:
