@@ -3,7 +3,7 @@
   "summary"  : "{{ post.summary }}",
   "category" : "{{ post.category }}",
   "tags"     : [{% for tag in post.tags %}"{{ tag }}",{% endfor %} null],
-  "url"      : "{{ site.url }}/{{ post.date | date: "%Y/%m/%d" }}/{{ post.slug }}/",
+  "url"      : "{{ site.url }}{{ post.url}}",
   "date"     : {
     "day"   : "{{ post.date | date: "%d" }}",
     "month" : "{{ post.date | date: "%B" }}",
