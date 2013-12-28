@@ -4,7 +4,7 @@ pygments: true
 
 title: ISLogs
 
-url: http://www.islogs.com
+url: http://ostlabs.github.io/islogs/
 
 permalink: /:categories/:title/
 
