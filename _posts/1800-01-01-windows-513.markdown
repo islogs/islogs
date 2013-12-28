@@ -7,8 +7,8 @@ categories: Windows-Events 500
 image: placeholder.png
 summary: Windows is shutting down
 Event: 513
-Log: Unknown
-SIEM: Unknown
+Log: true
+SIEM: true
 Compliance: Unknown
 tags:
 - windows
@@ -21,3 +21,7 @@ Description of the event ID
 ### Compliance
 
 Reason why this may or may not be compliance related.
+
+### Alert
+
+Alerts should happen on any single event, this indicates a system was shutdown and needs to be investigated

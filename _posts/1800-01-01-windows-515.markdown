@@ -7,11 +7,12 @@ categories: Windows-Events 500
 image: placeholder.png
 summary: A trusted logon process has registered with the Local Security Authority
 Event: 515
-Log: Unknown
-SIEM: Unknown
+Log: Maybe
+SIEM: Maybe
 Compliance: Unknown
 tags:
 - windows
+- malware
 ---
 
 ### Description
@@ -21,3 +22,7 @@ Description of the event ID
 ### Compliance
 
 Reason why this may or may not be compliance related.
+
+### Alerts
+
+One could create an alert if a non-standard logon process is registered, may identify possible malware

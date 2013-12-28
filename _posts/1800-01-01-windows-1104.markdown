@@ -7,8 +7,8 @@ categories: Windows-Events 1100
 image: placeholder.png
 summary: The security Log is now full
 Event: 1104
-Log: Unknown
-SIEM: Unknown
+Log: true
+SIEM: true
 Compliance: Unknown
 tags:
 - windows
@@ -21,3 +21,7 @@ Description of the event ID
 ### Compliance
 
 Reason why this may or may not be compliance related.
+
+### Alert
+
+Alerts should happen on any single event, it indicates a misconfigured system and logs will no longer be saved.

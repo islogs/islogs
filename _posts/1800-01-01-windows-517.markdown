@@ -7,11 +7,13 @@ categories: Windows-Events 500
 image: placeholder.png
 summary: The audit log was cleared
 Event: 517
-Log: Unknown
-SIEM: Unknown
+Log: true
+SIEM: true
 Compliance: Unknown
 tags:
 - windows
+- malware
+- possible intrution
 ---
 
 ### Description
@@ -21,3 +23,7 @@ Description of the event ID
 ### Compliance
 
 Reason why this may or may not be compliance related.
+
+### Alert
+
+Alerts should be generated on any single event as this indicates audit logs were cleared.

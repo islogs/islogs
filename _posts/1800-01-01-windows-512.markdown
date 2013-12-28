@@ -7,7 +7,7 @@ categories: Windows-Events 500
 image: placeholder.png
 summary: Windows NT is starting up
 Event: 512
-Log: Unknown
+Log: true
 SIEM: Unknown
 Compliance: Unknown
 tags:

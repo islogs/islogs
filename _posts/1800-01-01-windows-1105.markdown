@@ -7,8 +7,8 @@ categories: Windows-Events 1100
 image: placeholder.png
 summary: Event log automatic backup
 Event: 1105
-Log: Unknown
-SIEM: Unknown
+Log: false
+SIEM: false
 Compliance: Unknown
 tags:
 - windows
