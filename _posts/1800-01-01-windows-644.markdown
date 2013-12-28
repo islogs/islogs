@@ -1,0 +1,26 @@
+---
+pagenav: false
+date: 2009-10-22 14:42:38
+layout: windowsevent
+slug: 644
+categories: Windows-Events 600
+image: placeholder.png
+summary: Summary of event 
+Event: 644
+Log: Yes
+SIEM: Yes
+Compliance: Unknown
+tags:
+- windows
+---
+
+### Description
+
+Account locked out because of failed attempts threshold meet as defined by policy (either local or domain security policy)
+
+### Compliance
+
+Unknown
+
+### SIEM
+Correlation rules for brute force attack detection should be built. At a minimum, one rule should detect multiple account lockouts over a short period of time (typically 10 minutes). 

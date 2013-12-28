@@ -1,0 +1,22 @@
+---
+pagenav: false
+date: 2009-10-22 14:42:38
+layout: windowsevent
+slug: 5156
+categories: Windows-Events 5000
+image: placeholder.png
+Event: 5156
+summary: The Windows Filtering Platform has allowed a connection
+Log: Yes
+SIEM: No
+Compliance: No
+tags:
+- windows
+---
+
+### Description
+
+This event will trigger any time the windows firewall allows a connection. 
+
+### Compliance
+Unknown
