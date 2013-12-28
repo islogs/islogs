@@ -6,7 +6,7 @@ title: ISLogs
 
 url: http://www.islogs.com
 
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 
 author:
     name: Jason Kendall
