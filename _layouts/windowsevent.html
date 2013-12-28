@@ -1,0 +1,76 @@
+---
+layout: layout
+---
+
+<div class="content">    
+    <div class="row">	
+        <div class="span7 column">
+            <h1>Windows Event: {{ page.Event }} </h1>
+        </div>
+    </div>
+
+    <div style="width:23em; text-align:left; float:right;">
+	<table width="100%">
+	    <tr>
+		<th colspan="2" style="width:100%; text-align:center; font-size:1.25em; white-space:nowrap">
+		    Event ID: {{page.Event}}
+		</th>
+	    </tr>
+	    <tr>
+		<td>Event Details</td>
+		<td><a href="http://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventid={{page.Event}}">UWS</a></td>
+	    </tr>
+	    <tr>
+		<td>Log</td>
+		<td>{{page.Log}}</td>
+	    </tr>
+	    <tr>
+		<td>SIEM</td>
+		<td>{{page.SIEM}}
+	    </tr>
+	    <tr>
+		<td>Compliance</td>
+		<td>{{page.Compliance}}</td>
+	    </tr>
+	</table>
+    </div>
+    
+    <div class="row">	
+        <div class="span7 columns">
+	    <h4>{{page.Event}}: {{page.summary}}</h4>
+            {{ content }}
+        </div>
+    </div>
+    
+    <!-- div class="pager hidden-phone hidden-tablet">
+        <a class="prev" href="{{ page.previous.url }}" title="Previous Post: {{page.previous.title}}"><i class="icon-arrow-left icon-white"></i></a>
+        <a class="next" href="{{ page.next.url }}" title="Previous Post: {{page.next.title}}"><i class="icon-arrow-right icon-white"></i></a>
+    </div-->
+    
+    <div class="row">	
+        <div class="span7 column">
+            <p>
+              <i class="icon-comment"></i> <a href="{{ site.url }}{{ page.url }}#disqus_thread""></a>     
+              <br />
+              <i class="icon-tags"></i> Tags :{% for tag in page.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View pages tagged with &quot;{{ tag }}&quot;"><span class="label label-info">{{ tag }}</span></a>  {% if forloop.last != true %} {% endif %} {% endfor %}
+              <br />
+              <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.author.twitter }}">Tweet</a> <g:plusone size="medium"></g:plusone></h5>
+            </p>
+        </div>
+    </div>
+
+    { site.categories.Windows-Events }
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <!-- Google + -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+</div>
+    
