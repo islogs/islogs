@@ -7,8 +7,8 @@ categories: Windows-Events 600
 image: placeholder.png
 summary: Change Password Attempt
 Event: 627
-Log: Unknown
-SIEM: Unknown
+Log: Yes
+SIEM: No
 Compliance: Unknown
 tags:
 - windows
@@ -16,7 +16,8 @@ tags:
 
 ### Description
 
-Description of the event ID
+On Windows 2000 - Logged for succesful and failed password change attempts
+On Windows 2003 - Only succesful password change attempts are logged
 
 ### Compliance
 

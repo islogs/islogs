@@ -7,8 +7,8 @@ categories: Windows-Events 4700
 image: placeholder.png
 summary: An attempt was made to change an account's password
 Event: 4723
-Log: Unknown
-SIEM: Unknown
+Log: No
+SIEM: No
 Compliance: Unknown
 tags:
 - windows
@@ -16,7 +16,7 @@ tags:
 
 ### Description
 
-Description of the event ID
+A user tried to change thier password, but did not meet minium requirements.
 
 ### Compliance
 

@@ -7,8 +7,8 @@ categories: Windows-Events 4600
 image: placeholder.png
 summary: An account failed to log on
 Event: 4625
-Log: Unknown
-SIEM: Unknown
+Log: true
+SIEM: true
 Compliance: Unknown
 tags:
 - windows
@@ -21,3 +21,7 @@ Description of the event ID
 ### Compliance
 
 Reason why this may or may not be compliance related.
+
+### Alert 
+
+Alerts should be generated based on events per minute. Suggested 5/Minute.

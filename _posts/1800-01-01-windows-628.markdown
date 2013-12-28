@@ -7,8 +7,8 @@ categories: Windows-Events 600
 image: placeholder.png
 summary: User Account password set
 Event: 628
-Log: Unknown
-SIEM: Unknown
+Log: Yes
+SIEM: Yes
 Compliance: Unknown
 tags:
 - windows
@@ -16,8 +16,12 @@ tags:
 
 ### Description
 
-Description of the event ID
+Indicates an administrator changed a users password.
 
 ### Compliance
 
 Reason why this may or may not be compliance related.
+
+### Alerts
+
+Should alert on any single event, and follow up should happen with the administrator performing the change.

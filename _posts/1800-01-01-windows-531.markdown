@@ -7,8 +7,8 @@ categories: Windows-Events 500
 image: placeholder.png
 summary: Logon Failure - Account currently disabled
 Event: 531
-Log: Unknown
-SIEM: Unknown
+Log: true
+SIEM: true
 Compliance: Unknown
 tags:
 - windows
@@ -21,3 +21,7 @@ Description of the event ID
 ### Compliance
 
 Reason why this may or may not be compliance related.
+
+### Alerts
+
+One should alert on this based on time. Suggest 5/Minute.
