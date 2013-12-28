@@ -1,0 +1,23 @@
+---
+pagenav: false
+date: 1800-01-01 14:42:38
+layout: windowsevent
+slug: 6281
+categories: Windows-Events 6200
+image: placeholder.png
+summary: Code Integrity determined that the page hashes of an image file are not valid...
+Event: 6281
+Log: Unknown
+SIEM: Unknown
+Compliance: Unknown
+tags:
+- windows
+---
+
+### Description
+
+Description of the event ID
+
+### Compliance
+
+Reason why this may or may not be compliance related.

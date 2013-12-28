@@ -1,0 +1,23 @@
+---
+pagenav: false
+date: 1800-01-01 14:42:38
+layout: windowsevent
+slug: 4775
+categories: Windows-Events 4700
+image: placeholder.png
+summary: An account could not be mapped for logon
+Event: 4775
+Log: Unknown
+SIEM: Unknown
+Compliance: Unknown
+tags:
+- windows
+---
+
+### Description
+
+Description of the event ID
+
+### Compliance
+
+Reason why this may or may not be compliance related.

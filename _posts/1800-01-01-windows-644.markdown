@@ -5,7 +5,7 @@ layout: windowsevent
 slug: 644
 categories: Windows-Events 600
 image: placeholder.png
-summary: Summary of event 
+summary: User Account Locked Out
 Event: 644
 Log: Yes
 SIEM: Yes

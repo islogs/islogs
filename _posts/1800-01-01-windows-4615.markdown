@@ -1,0 +1,23 @@
+---
+pagenav: false
+date: 1800-01-01 14:42:38
+layout: windowsevent
+slug: 4615
+categories: Windows-Events 4600
+image: placeholder.png
+summary: Invalid use of LPC port
+Event: 4615
+Log: Unknown
+SIEM: Unknown
+Compliance: Unknown
+tags:
+- windows
+---
+
+### Description
+
+Description of the event ID
+
+### Compliance
+
+Reason why this may or may not be compliance related.

@@ -1,0 +1,23 @@
+---
+pagenav: false
+date: 1800-01-01 14:42:38
+layout: windowsevent
+slug: 5149
+categories: Windows-Events 5100
+image: placeholder.png
+summary: The DoS attack has subsided and normal processing is being resumed.
+Event: 5149
+Log: Unknown
+SIEM: Unknown
+Compliance: Unknown
+tags:
+- windows
+---
+
+### Description
+
+Description of the event ID
+
+### Compliance
+
+Reason why this may or may not be compliance related.

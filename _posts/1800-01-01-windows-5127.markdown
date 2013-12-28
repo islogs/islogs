@@ -1,0 +1,23 @@
+---
+pagenav: false
+date: 1800-01-01 14:42:38
+layout: windowsevent
+slug: 5127
+categories: Windows-Events 5100
+image: placeholder.png
+summary: The OCSP Revocation Provider successfully updated the revocation information
+Event: 5127
+Log: Unknown
+SIEM: Unknown
+Compliance: Unknown
+tags:
+- windows
+---
+
+### Description
+
+Description of the event ID
+
+### Compliance
+
+Reason why this may or may not be compliance related.

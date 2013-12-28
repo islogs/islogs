@@ -1,0 +1,23 @@
+---
+pagenav: false
+date: 1800-01-01 14:42:38
+layout: windowsevent
+slug: 4612
+categories: Windows-Events 4600
+image: placeholder.png
+summary: Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits.
+Event: 4612
+Log: Unknown
+SIEM: Unknown
+Compliance: Unknown
+tags:
+- windows
+---
+
+### Description
+
+Description of the event ID
+
+### Compliance
+
+Reason why this may or may not be compliance related.

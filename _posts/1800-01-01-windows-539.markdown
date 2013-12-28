@@ -4,7 +4,7 @@ date: 2009-10-22 14:42:38
 layout: windowsevent
 slug: 539
 categories: Windows-Events 500
-summary: summary of event
+summary: Logon Failure - Account locked out
 image: placeholder.png
 Event: 539
 Log: Yes
