@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
         var find = function(phrase) {
             if(!data) {
                 return $.ajax({
-                    url: '/islogs/search.json',
+                    url: '/search.json',
                     dataType: 'json',
                     success: function(resp) {
                         data = _(resp).chain()
