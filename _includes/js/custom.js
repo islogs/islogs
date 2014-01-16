@@ -74,7 +74,7 @@ jQuery(document).ready(function() {
             $('#close', search).hide();
             
             var phrase = $('input', search).val();
-            if (phrase.length >= 4) {
+            if (phrase.length >= 3) {
                 find(phrase.toLowerCase().match(/(\w+)/g));
             }
             return false;
@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
             $('#close', search).hide();
             
             var phrase = $('input', search).val();
-            if (phrase.length >= 4) {
+            if (phrase.length >= 3) {
                 find(phrase.toLowerCase().match(/(\w+)/g));
             }
             return false;
